@@ -26,7 +26,9 @@ A full-featured **task management API** built with [FastAPI](https://fastapi.tia
 │   ├── schemas.py           # Pydantic models
 │   ├── crud.py              # CRUD operations
 │   ├── database.py          # DB connection and session
-│   └── config.py            # Environment config loader
+│   ├── config.py
+│   └── routers/
+│       └── tasks.py           # Environment config loader
 ├── .env                     # Environment variables
 ├── Dockerfile               # Image build instructions
 ├── docker-compose.yml       # Multi-container setup
